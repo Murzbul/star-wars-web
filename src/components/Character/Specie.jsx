@@ -19,20 +19,20 @@ const Specie = ({ species }) => {
         <>
           <h2>SPECIES</h2>
           <h3>
-            Name - ' <span>{data[0]?.name}</span> ' <br />
-            Language - ' <span>{data[0]?.language}</span> ' <br />
-            Designation - '{" "}
+            Name - &apos; <span>{data[0]?.name}</span> &apos; <br />
+            Language - &apos; <span>{data[0]?.language}</span> &apos; <br />
+            Designation - &apos;{" "}
             <span>
               {data[0]?.designation.charAt(0).toUpperCase() +
                 data[0]?.designation.slice(1)}
             </span>{" "}
-            ' <br />
-            Clasiffication - '{" "}
+            &apos; <br />
+            Clasiffication - &apos;{" "}
             <span>
               {data[0]?.classification.charAt(0).toUpperCase() +
                 data[0]?.classification.slice(1)}
             </span>{" "}
-            '
+            &apos;
           </h3>
         </>
       )}

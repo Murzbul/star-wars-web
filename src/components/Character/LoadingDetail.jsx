@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import loading from "../../assets/loading.png";
 import "./styles/LoadingDetail.css";
 
@@ -7,7 +8,7 @@ const LoadingDetail = () => {
       <div className="line_one_2" />
       <div className="line_two_2" />
       <div className="line_three_2" />
-      <img
+      <Image
         className="loading-img_2"
         src={loading}
         alt="loading"

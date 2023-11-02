@@ -18,20 +18,20 @@ const Character = ({ name, gender, homeworld, species, films, starships }) => {
           <div className="bg-homeworld">
             <h2>HOMEWORLD</h2>
             <h3>
-              Name - ' <span>{homeworld?.name}</span> ' <br />
-              Climate - '{" "}
+              Name - &apos; <span>{homeworld?.name}</span> &apos; <br />
+              Climate - &apos;{" "}
               <span>
                 {homeworld?.climate?.charAt(0).toUpperCase() +
                   homeworld.climate?.slice(1)}
               </span>{" "}
-              ' <br />
-              Terrain - '{" "}
+              &apos; <br />
+              Terrain - &apos;{" "}
               <span>
                 {homeworld.terrain?.charAt(0).toUpperCase() +
                   homeworld.terrain?.slice(1)}
               </span>{" "}
-              ' <br />
-              Population - ' <span>{homeworld.population}</span> ' <br />
+              &apos; <br />
+              Population - &apos; <span>{homeworld.population}</span> &apos; <br />
             </h3>
           </div>
 

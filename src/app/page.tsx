@@ -1,5 +1,4 @@
-import "../../src/app/old/Home.css";
-import "./App.css";
+import "./Home.css";
 
 import Welcome from "@/features/Welcome";
 import Layout from "@/features/Layout";
@@ -7,7 +6,7 @@ import Layout from "@/features/Layout";
 export default function Page()
 {
     return (
-        <Layout className="app">
+        <Layout className="section">
             <Welcome />
         </Layout>
     )

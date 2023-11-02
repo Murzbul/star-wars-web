@@ -7,7 +7,8 @@ import { TiArrowForward, TiArrowBack } from "react-icons/ti";
 import LoadingDetail from "./LoadingDetail.jsx";
 import "./styles/Starship.css";
 
-const Starship = ({ starships }) => {
+const Starship = ({ starships }) =>
+{
   const [currentShip, setCurrentShip] = useState(0);
   const [data, setData] = useState([]);
 
@@ -48,17 +49,17 @@ const Starship = ({ starships }) => {
           </div>
           <div>
             <h3>
-              Name - ' <span>{data[currentShip]?.name}</span> '
+              Name - &apos; <span>{data[currentShip]?.name}</span> &apos;
             </h3>
             <h3>
-              Model - ' <span>{data[currentShip]?.model}</span> '
+              Model - &apos; <span>{data[currentShip]?.model}</span> &apos;
             </h3>
             <h3>
-              Manufacturer - ' <span>{data[currentShip]?.manufacturer}</span> '
+              Manufacturer - &apos; <span>{data[currentShip]?.manufacturer}</span> &apos;
             </h3>
             <h3>
-              Starship Class - '{" "}
-              <span>{data[currentShip]?.starship_class}</span> '
+              Starship Class - &apos;{" "}
+              <span>{data[currentShip]?.starship_class}</span> &apos;
             </h3>
           </div>
         </>

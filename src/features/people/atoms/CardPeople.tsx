@@ -1,4 +1,4 @@
-import './Card.css';
+import './CardPeople.css';
 
 interface CardPeopleProps
 {

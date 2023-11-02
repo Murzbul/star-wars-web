@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image';
 import { useState, useEffect } from "react";
 import { imageFilms } from "@/assets";
 import portada from "../../assets/PortadaStarWars.jpg";
@@ -78,7 +79,7 @@ const Film = ({ film }) => {
               </div>
             </div>
           </div>
-          <img
+          <Image
             className="img-detail"
             loading="lazy"
             src={getImage()}
