@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useState, useEffect } from "react";
 import { imageFilms } from "@/assets";
-import portada from "../../assets/PortadaStarWars.jpg";
+import portada from "../../assets/episodeDefault.jpg";
 import { TiArrowForward, TiArrowBack } from "react-icons/ti";
 
 import LoadingDetail from "./LoadingDetail.jsx";

@@ -3,7 +3,7 @@
 import ListPeople from "@/features/people/organisms/ListPeople";
 import Layout from "@/features/Layout";
 import React, {useEffect, useState} from "react";
-import Filter from "@/components/Filter";
+import Filter from "@/features/people/molecules/Filter";
 import {config} from "@/config/api";
 import Loading from "@/features/shared/atoms/Loading";
 import {IPeopleApiResponse} from "@/features/people/models";

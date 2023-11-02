@@ -1,8 +1,8 @@
-import A_New_Hope from "./A_New_Hope.jpg";
-import Return_Of_The_Jedi from "./Return_Of_The_Jedi.jpg";
-import Revenge_Of_The_Sith from "./Revenge_Of_The_Sith.jpg";
-import The_Empire_Strikes_Back from "./The_Empire_Strikes_Back.jpg";
-import PortadaStarWars from "./PortadaStarWars.jpg";
+import A_New_Hope from "./episode4.jpg";
+import Return_Of_The_Jedi from "./episode6.jpg";
+import Revenge_Of_The_Sith from "./episode3.jpg";
+import The_Empire_Strikes_Back from "./episode5.jpg";
+import PortadaStarWars from "./episodeDefault.jpg";
 
 const imageFilms = [
 		{
