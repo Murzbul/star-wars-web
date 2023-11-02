@@ -21,8 +21,8 @@ const Navbar = () =>
                 <Link href="/" className={pathname === "/" ? 'active' : ""}>Home</Link>
                 <Link href="/people" className={  pathname === "/people" ? 'active' : ""}>People</Link>
                 <Link href="/starships" className={pathname === "/starships" ? 'active' : ""}>Starships</Link>
-                <Link href="/films" className={pathname === "/films" ? 'active' : ""}>Films</Link>
                 <Link href="/planets" className={pathname === "/planets" ? 'active' : ""}>Planets</Link>
+                <Link href="/films" className={pathname === "/films" ? 'active' : ""}>Films</Link>
             </div>
             <Link
               className="link-back"

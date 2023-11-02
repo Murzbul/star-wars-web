@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./page.css";
 
 import Welcome from "@/features/Welcome";
 import Layout from "@/features/Layout";
