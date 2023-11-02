@@ -1,0 +1,28 @@
+.container-specie {
+	position: relative;
+	transition: .5s;
+	background-color: rgba(130, 130, 130, 0.1);
+	border-radius: 10px;
+	padding: 20px;
+	width: 100%;
+	min-height: 180px;
+	max-height: max-content;
+	margin: 10px;
+	box-sizing: border-box;
+}
+.container-specie h3 {
+	font-family: 'Poppins';
+}
+/*======================RESPONSIVE/*======================*/
+
+@media (max-width: 640px){
+	.container-specie {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin: 10px auto;
+	width: 100%!important;
+	max-width: 100%!important;
+	box-sizing: border-box;
+	}
+}
