@@ -17,6 +17,7 @@ const List = (props: ListFilmProps) =>
                 {props.films && props.films.map((starship: IFilmApiResponse) => (
                     <Card
                         key={starship?.id}
+                        id={starship?.id}
                         title={starship?.title}
                         episodeUd={starship?.episodeUd}
                         openingCrawl={starship?.openingCrawl}
