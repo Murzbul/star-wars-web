@@ -1,4 +1,3 @@
-import { MagicMotion } from "react-magic-motion";
 import Card from "../atoms/Card";
 
 import "./List.css";
@@ -12,20 +11,18 @@ interface ListFilmProps
 const List = (props: ListFilmProps) =>
 {
     return (
-        <MagicMotion>
-            <div className="container-list">
-                {props.films && props.films.map((starship: IFilmApiResponse) => (
-                    <Card
-                        key={starship?.id}
-                        id={starship?.id}
-                        title={starship?.title}
-                        episodeUd={starship?.episodeUd}
-                        openingCrawl={starship?.openingCrawl}
-                        releaseDate={starship?.releaseDate}
-                    />
-                ))}
-            </div>
-        </MagicMotion>
+        <div className="container-list">
+            {props.films && props.films.map((starship: IFilmApiResponse) => (
+                <Card
+                    key={starship?.id}
+                    id={starship?.id}
+                    title={starship?.title}
+                    episodeUd={starship?.episodeUd}
+                    openingCrawl={starship?.openingCrawl}
+                    releaseDate={starship?.releaseDate}
+                />
+            ))}
+        </div>
     );
 };
 

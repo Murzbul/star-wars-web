@@ -1,4 +1,3 @@
-import { MagicMotion } from "react-magic-motion";
 import Card from "../atoms/Card";
 
 import "./List.css";
@@ -12,19 +11,17 @@ interface ListStarshipProps
 const List = (props: ListStarshipProps) =>
 {
     return (
-        <MagicMotion>
-            <div className="container-list">
-                {props.planets && props.planets.map((starship: IPlanetApiResponse) => (
-                    <Card
-                        key={starship?.id}
-                        name={starship?.name}
-                        terrain={starship?.terrain}
-                        population={starship?.population}
-                        diameter={starship?.diameter}
-                    />
-                ))}
-            </div>
-        </MagicMotion>
+        <div className="container-list">
+            {props.planets && props.planets.map((starship: IPlanetApiResponse) => (
+                <Card
+                    key={starship?.id}
+                    name={starship?.name}
+                    terrain={starship?.terrain}
+                    population={starship?.population}
+                    diameter={starship?.diameter}
+                />
+            ))}
+        </div>
     );
 };
 
